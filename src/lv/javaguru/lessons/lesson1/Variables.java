@@ -1,8 +1,5 @@
 package lv.javaguru.lessons.lesson1;
 
-/**
- * Created by User on 30.01.2017.
- */
 public class Variables {
 
     public static void main(String[] args) {
