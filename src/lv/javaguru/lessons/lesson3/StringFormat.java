@@ -1,4 +1,4 @@
-package com.company.lesson3;
+package lv.javaguru.lessons.lesson3;
 
 /**
  * Created by olegssedacs on 11/06/2017.
