@@ -6,7 +6,7 @@ package lv.javaguru.lessons.lesson7.array;
 public class CustomArray {
 
     private int[] array;
-    private int lastAddedIndex;
+    private int nextIndex;
 
     public CustomArray(int size) {
         array = new int[size];
@@ -23,11 +23,11 @@ public class CustomArray {
     }
 
     public void add(int value) {
-        if (lastAddedIndex == array.length) {
+        if (nextIndex == array.length) {
             resize(array.length + 1);
         }
-        array[lastAddedIndex] = value;
-        lastAddedIndex++;
+        array[nextIndex] = value;
+        nextIndex++;
     }
 
     public void resize(int newSize) {
