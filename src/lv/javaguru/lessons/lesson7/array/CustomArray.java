@@ -1,4 +1,4 @@
-package lv.javaguru.lessons.lesson7;
+package lv.javaguru.lessons.lesson7.array;
 
 /**
  * Created by olegssedacs on 16/07/2017.

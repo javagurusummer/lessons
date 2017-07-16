@@ -1,6 +1,4 @@
-package lv.javaguru.lessons.lesson7.tv;
-
-import lv.javaguru.lessons.lesson7.CustomArray;
+package lv.javaguru.lessons.lesson7.array;
 
 /**
  * Created by olegssedacs on 16/07/2017.
