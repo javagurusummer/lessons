@@ -23,7 +23,7 @@ public class CustomArray {
     }
 
     public void add(int value) {
-        if (lastAddedIndex == array.length - 1) {
+        if (lastAddedIndex == array.length) {
             resize(array.length + 1);
         }
         array[lastAddedIndex] = value;
