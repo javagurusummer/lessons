@@ -30,7 +30,7 @@ public class CustomArray {
         nextIndex++;
     }
 
-    public void resize(int newSize) {
+    private void resize(int newSize) {
         int[] newArray = new int[newSize];
         for (int i = 0; i < array.length; i++) {
             newArray[i] = array[i];
