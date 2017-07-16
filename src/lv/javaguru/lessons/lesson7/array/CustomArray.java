@@ -13,9 +13,7 @@ public class CustomArray {
     }
 
     public void print() {
-        for (int i = 0; i < array.length; i++) {
-            System.out.printf("Array[%d] = %d\n", i, array[i]);
-        }
+        System.out.print(this);
     }
 
     public int get(int index) {
@@ -36,6 +34,15 @@ public class CustomArray {
             newArray[i] = array[i];
         }
         array = newArray;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < array.length; i++) {
+            sb.append(String.format("Array[%d] = %d\n", i, array[i]));
+        }
+        return sb.toString();
     }
 
 }

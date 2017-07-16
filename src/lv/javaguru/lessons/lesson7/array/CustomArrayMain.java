@@ -13,6 +13,9 @@ public class CustomArrayMain {
         array.print();
 
         System.out.println("7 = " + array.get(7));
+
+        // will be invoked array.toString() method
+        System.out.println(array);
     }
 
 }
