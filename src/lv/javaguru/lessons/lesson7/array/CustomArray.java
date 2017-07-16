@@ -6,7 +6,7 @@ package lv.javaguru.lessons.lesson7.array;
 public class CustomArray {
 
     private int[] array;
-    private int lastAddedIndex = 0;
+    private int lastAddedIndex;
 
     public CustomArray(int size) {
         array = new int[size];
