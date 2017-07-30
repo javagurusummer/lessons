@@ -1,4 +1,4 @@
-package lv.javaguru.lessons.lesson9.bank.accounts;
+package lv.javaguru.lessons.lesson9.inheritance.accounts;
 
 import java.math.BigDecimal;
 
@@ -12,7 +12,7 @@ public class CurrentAccount extends BankAccount implements Withdrawable {
         if (getBalance().compareTo(amount) >= 0) {
             setBalance(getBalance().subtract(amount));
         }
-        return getBalance();
+        return amount;
     }
 
 }

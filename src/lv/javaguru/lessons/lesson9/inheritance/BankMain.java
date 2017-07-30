@@ -1,9 +1,9 @@
-package lv.javaguru.lessons.lesson9.bank;
+package lv.javaguru.lessons.lesson9.inheritance;
 
-import lv.javaguru.lessons.lesson9.bank.accounts.BankAccount;
-import lv.javaguru.lessons.lesson9.bank.accounts.CurrentAccount;
-import lv.javaguru.lessons.lesson9.bank.accounts.MortgageAccount;
-import lv.javaguru.lessons.lesson9.bank.accounts.Withdrawable;
+import lv.javaguru.lessons.lesson9.inheritance.accounts.BankAccount;
+import lv.javaguru.lessons.lesson9.inheritance.accounts.CurrentAccount;
+import lv.javaguru.lessons.lesson9.inheritance.accounts.MortgageAccount;
+import lv.javaguru.lessons.lesson9.inheritance.accounts.Withdrawable;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

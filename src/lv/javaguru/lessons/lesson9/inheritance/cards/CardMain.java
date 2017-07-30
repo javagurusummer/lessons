@@ -1,4 +1,4 @@
-package lv.javaguru.lessons.lesson9.bank.cards;
+package lv.javaguru.lessons.lesson9.inheritance.cards;
 
 import java.math.BigDecimal;
 
