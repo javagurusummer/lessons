@@ -1,6 +1,6 @@
 package lv.javaguru.lessons.lesson13.registration;
 
-public class ReistrationMain {
+public class RegistrationMain {
 
     public static void main(String[] args) {
         Validator<Registration> validator = new RegistrationValidator();
