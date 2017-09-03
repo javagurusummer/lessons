@@ -7,17 +7,17 @@ public class A {
 
     public static void main(String[] args) {
         A a = new A();
-        a.toSomething();
+        a.doSomething();
     }
 
-    public void toSomething() {
+    public void doSomething() {
         String text = "aaa sss fff fff fff bbb";
-        Result result = findWordWithHighiestOccurancy(text);
+        Result result = findWordWithHighiestOccurency(text);
         System.out.println("word = " + result.word);
         System.out.println("count = " + result.count);
     }
 
-    private Result findWordWithHighiestOccurancy(String text) {
+    private Result findWordWithHighiestOccurency(String text) {
         Map<String, Integer> words = new HashMap<>();
         for (String str : text.split(" ")) {
             put(words, str);
